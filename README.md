@@ -22,7 +22,8 @@ API Automation Framework with the CRUD of Restful Booker
 9. Jenkins File
 
 #### API Framework Important Components
-https://eraser.imgix.net/workspaces/FQDKGYeDSRxo9SxZX6Wt/WWS31TdyovhjTB1TVo9v2jWpPei1/0OAToUnXc2WSu4cG3nojW.png?ixlib=js-3.7.0
+![image](https://github.com/user-attachments/assets/1565b825-9286-4335-ac05-677f20239b9f)
+
 #### Running via CI/CD
 ![image](https://github.com/user-attachments/assets/8389266d-8075-45b7-bdcf-a00a84157b89)
 
