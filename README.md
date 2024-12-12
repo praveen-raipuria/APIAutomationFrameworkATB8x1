@@ -5,8 +5,7 @@
 API Automation Framework with the CRUD of Restful Booker
 
 `mvn test -Dsurefire.suiteXmlFiles=testng.xml`
-
-<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github.com/praveen-raipuria/APIAutomationRestAssured/assets/1409610/69f398b3-8798-4fba-a091-3b1e321dcc7d">
+![image](https://github.com/user-attachments/assets/fce3206d-ff80-49dd-a31f-2e6a2b1365e4)
 
 
 
@@ -23,11 +22,9 @@ API Automation Framework with the CRUD of Restful Booker
 9. Jenkins File
 
 #### API Framework Important Components
-![Screenshot 2024-06-29 at 12 44 29](https://github.com/praveen-raipuria/APIAutomationFramworkATB6x/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
-
+https://eraser.imgix.net/workspaces/FQDKGYeDSRxo9SxZX6Wt/WWS31TdyovhjTB1TVo9v2jWpPei1/0OAToUnXc2WSu4cG3nojW.png?ixlib=js-3.7.0
 #### Running via CI/CD
-<img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github.com/praveen-raipuria/APIAutomationRestAssured/assets/1409610/2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5">
-
+![image](https://github.com/user-attachments/assets/8389266d-8075-45b7-bdcf-a00a84157b89)
 
 Run
 
@@ -71,7 +68,8 @@ To run tests in parallel, add the parallel attribute to your testng.xml file:
 
 ```allure serve allure-results/```
 
-![image](https://github.com/praveen-raipuria/APIAutomationFramworkATB6x/assets/1409610/79ba2093-a1b7-4b36-ba16-9a6827af7afe)
+![image](https://github.com/user-attachments/assets/fad64b92-b80a-4686-8305-3b5ee148ad74)
+
 
 
 Certainly! I'll guide you through the steps to install Allure and generate a report for a Java project using TestNG. Here's a step-by-step process:
