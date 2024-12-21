@@ -6,9 +6,7 @@
             <include name="qa"></include>
         </run>
     </groups>
-    <test verbose="2" preserve-order="true" name="APIAutomationFrameworkATB8x">
-        <classes>
-            <class name="com.thetestingacademy.tests.integration.sample.TestIntegrationSample"></class>
-        </classes>
+    <test verbose="2" preserve-order="true" name="/Users/Dell/IdeaProjects/APIAutomationFrameworkATB8x">
+        <classes/>
     </test>
 </suite>
