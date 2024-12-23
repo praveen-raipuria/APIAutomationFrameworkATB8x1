@@ -1,5 +1,5 @@
 package com.thetestingacademy.utils;
 
-public class CommonToAll {
+public class UtilsExcel {
 
 }

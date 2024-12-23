@@ -2,13 +2,14 @@ package com.thetestingacademy.modules;
 import com.google.gson.Gson;
 import com.thetestingacademy.pojos.*;
 
-public class PayLoadManager {
+public class PayloadManager {
+
     // Converting the JAVA object to the String
 
     //  GSON
-    Gson gson;
+    static Gson gson;
 
-    public String createPayloadBookingAsString() {
+    public static String createPayloadBookingAsString() {
 
         Booking booking = new Booking();
         booking.setFirstname("James");
@@ -32,19 +33,19 @@ public class PayLoadManager {
 
     }
 
-    public BookingResponse bookingResponseJava(String responseString) {
+    public static BookingResponse bookingResponseJava(String responseString) {
         gson = new Gson();
         BookingResponse bookingResponse = gson.fromJson(responseString, BookingResponse.class);
         return bookingResponse;
     }
 
-    public Booking getResponseFromJSON(String getResponse){
+    public static Booking getResponseFromJSON(String getResponse){
         Booking booking = gson.fromJson(getResponse,Booking.class);
         return booking;
     }
 
     // get Token
-    public String setAuthPayload() {
+    public static String setAuthPayload() {
         // Auth Object -> json String
         Auth auth = new Auth();
         auth.setUsername("admin");
@@ -55,7 +56,7 @@ public class PayLoadManager {
         return jsonPayloadString;
     }
 
-    public String getTokenFromJSON(String tokenResponse) {
+    public static String getTokenFromJSON(String tokenResponse) {
         gson = new Gson();
         TokenResponse tokenResponse1 = gson.fromJson(tokenResponse, TokenResponse.class);
         return tokenResponse1.getToken();
@@ -64,7 +65,7 @@ public class PayLoadManager {
 
     //    public String createPayloadBookingAsStringFromExcel() {}
 
-    public String fullUpdatePayloadAsString() {
+    public static String fullUpdatePayloadAsString() {
         Booking booking = new Booking();
         booking.setFirstname("Pramod");
         booking.setLastname("Dutta");
